@@ -1,18 +1,20 @@
+<!-- Start Sidebar Icons -->
 <ul style="position: fixed; top: 300px; width: 40px;" id="example-2" class="sticklr sticklr-right sticklr-js">
-            <li style="height: 40px;">
-                <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#catering" class="icon-networking32" title="Catering"></a>
-               
-            </li>
-            <li style="height: 40px;">
-                <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#delivery" class="icon-product32" title="Home Delivery"></a>
-            </li>
-            <li style="height: 40px;">
-                <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#byo" class="icon-login32" title="BYO"></a>
-            </li>
-            <li style="height: 40px;">
-                <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#halal" class="icon-heart32" title="Halal Meat"></a> 
-            </li>            
-        </ul>        
+    <li style="height: 40px;">
+        <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#catering" class="icon-catering" title="Catering"></a>
+       
+    </li>
+    <li style="height: 40px;">
+        <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#delivery" class="icon-homedelivery" title="Home Delivery"></a>
+    </li>
+    <li style="height: 40px;">
+        <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#byo" class="icon-byo" title="BYO"></a>
+    </li>
+    <li style="height: 40px;">
+        <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#halal" class="icon-halalmeat" title="Halal Meat"></a> 
+    </li>            
+</ul> 
+<!-- End Sidebar Icons -->       
 <!-- footer -->
 <footer class="footer1">
 <div class="container" id="footer">

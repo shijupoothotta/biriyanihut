@@ -91,7 +91,7 @@
 }
 
 .sticklr > li > a:hover {
-    background-color: #eaeaea;
+    background-color: rgb(255, 102, 0);
 }
 
 .sticklr > li > ul {
@@ -400,4 +400,16 @@
 
 .icon-yahoo {
     background-image: url('img/icondock/yahoo.png');
+}
+.icon-byo {
+    background-image: url('img/pc.de-32/byo-32x32.png');
+}
+.icon-catering {
+    background-image: url('img/pc.de-32/catering-32x32.png');
+}
+.icon-halalmeat {
+    background-image: url('img/pc.de-32/halalmeat-32x32.png');
+}
+.icon-homedelivery {
+    background-image: url('img/pc.de-32/homedelivery-32x32.png');
 }

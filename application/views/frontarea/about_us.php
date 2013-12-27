@@ -1,3 +1,25 @@
+<!-- three blocs -->
+<section class="sliceTop"> 
+
+    <div class="container">
+
+        <div class="row">
+            <div class="span12 drop-shadow lifted">
+
+                <div class="topQuote">
+                    <h1>
+                        <strong>Toowoomba's First South Indian Restaurant</strong><br />
+                        Welcome to <strong>Biriyani Hut</strong>, 
+                        We are delighted to inform you that Biriyani Hut is ready to surprise your taste buds like never before...
+                        
+                    </h1>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- three blocs -->
 <!-- page content -->
 <section class="slice clearfix">
   <div class="container"> 

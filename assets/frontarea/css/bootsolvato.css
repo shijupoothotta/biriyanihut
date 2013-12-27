@@ -1,0 +1,61 @@
+.control-label .required {
+	color: #F00;
+}
+
+/* Address */
+.headerPage {
+	background-color:#FFF;
+}
+#navTrail {
+  background-color:#FFF;
+  opacity:0.6;
+  filter:alpha(opacity=60);	
+  margin-top: 0px;
+  padding-top:30px;
+}
+#navTrail vcard {
+	margin-bottom: 0;
+    margin-top: 0px;
+	padding-top:30px;
+}
+#navTrail .fn, #navTrail .street-address, #navTrail .region , #navTrail .tel, #navTrail .email {
+    margin:0 10px;
+	color:#F00;
+
+}
+#navTrail .email a:link,#navTrail .email a:visited, #navTrail .fn a:link, #navTrail .fn a:visited {
+	color:#F00;
+	text-decoration:none;
+}
+
+.footer1 address {
+	
+  background-color:#CBE3B1;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+  padding:5px 10px 0px 10px;
+}
+.workinghours {
+	max-width:229px;
+	display:inline-block;
+	float:left;
+	padding-left:5%;
+	padding-top:0px;
+}
+
+
+#mainHeader .nav > li > a:link, #mainHeader .nav > li > a:visited {
+	color:#194213;
+}
+
+.fullwidthbanner h3 {
+	background-color:#74C8EF;
+	padding:5px 5px 0px 5px;
+}
+
+.navbar-fixed-top {
+	background-color:#FAFAFA;
+}
+
+.ui-icon-service { width: 160px; height: 160px; background-image: url(../images/catering.png); background-position: 0 0; }
+.ui-icon-delivery { width: 160px; height: 160px; background-image: url(../images/delivery.png); background-position: 0 0; }

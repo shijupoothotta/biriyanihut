@@ -36,11 +36,13 @@
   padding:5px 10px 0px 10px;
 }
 .workinghours {
-	max-width:229px;
 	display:inline-block;
-	float:left;
-	padding-left:5%;
-	padding-top:0px;
+	padding-left:2%;
+	padding-top:8px;
+}
+.workinghours time {
+	color:#EE2126;
+	font-style:italic;
 }
 
 

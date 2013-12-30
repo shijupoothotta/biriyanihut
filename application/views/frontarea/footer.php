@@ -158,7 +158,7 @@
 
 <script type="text/javascript" src="<?Php echo base_url() ?>assets/frontarea/js-plugin/respond/respond.min.js"></script>
 <script type="text/javascript" src="<?Php echo base_url() ?>assets/frontarea/js/jquery.min.1.8.1.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.8.23/jquery-ui.min.js"></script>
+<script type="text/javascript" src="<?Php echo base_url() ?>assets/frontarea/js/jquery-ui.min.js"></script>
 
 
 <!-- third party plugins  -->

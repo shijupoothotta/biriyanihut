@@ -72,10 +72,16 @@
 
   <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-          <div class="container">
+          <div class="container-fluid">
             <a href="<?Php echo base_url()?>home/actual">
-            	<img src="<?Php echo base_url() ?>assets/frontarea/images/logo-biriyani2.png"> 
+            	<img src="<?Php echo base_url() ?>assets/frontarea/images/logo-biriyani5.png"> 
             </a> 
+            <!--workinghours -->
+                <div class="workinghours"> 
+                    <img src="<?Php echo base_url() ?>assets/frontarea/images/top-workinghours.png" >
+                    <p><time><?php echo $contact->c_working_hours; ?></time> </p>
+                </div>
+            <!--workinghours -->            
             <nav id="mainMenu" class="clearfix">
                 <ul class="nav">
                     <li><a href="<?Php echo base_url()?>home/actual" class="firstLevel <?php echo $this->uri->segment(2) == 'actual' ? 'active' : '' ?>" >Home</a></li>

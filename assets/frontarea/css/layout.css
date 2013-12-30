@@ -329,7 +329,7 @@ height: 15px;*/
     display:none;
     width:190px;
     padding:0.18em;
-    margin: 2px auto 0 auto;
+    margin: 2px auto 20px auto;
 }
 #mainMenu {
     margin:0 0 0 0;/* float:right;*/
@@ -348,12 +348,12 @@ height: 15px;*/
     text-decoration: none;
     margin: 0 5px 0 0;
     font-size:1.1em;
-    padding:1em 1em 0 1em;
+    padding:0 1em 0 1em;
     /* height:27px;*/
     line-height:2.5em;
-    -moz-border-radius:0 0 5px 5px;
-    -webkit-border-radius:0 0 5px 5px;
-    border-radius:0 0 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    border-radius:5px 5px 5px 5px;
 }
 #mainMenu ul li a.last {
     margin-right:0;
@@ -2102,39 +2102,6 @@ form .error {
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	.socialNetwork.nav {
-		float:right;
-		padding-right:20px	
-	}	
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 980px) and (max-width: 1119px) {
-    /* GENERAL */
-    body {
-        padding-top:0;
-    }
-    .navbar-fixed-top {
-        margin-bottom:0;
-    }
-
-    #mainHeader .navbar-inner{
-        padding:0;
-    }
-
-	
-    .headerPage {
-		margin-top:180px;
-    }
-	
-	.fullwidthbanner-container, .bgSliderBlocWrapper{
-			margin-top:212px;
-	}		
-	.socialNetwork.nav {
-		float:right;
-
-	}	
-
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -2151,10 +2118,8 @@ form .error {
         padding:0;
     }
 
-	.socialNetwork.nav {
-		clear:both;
-		padding-left:20px;
-	}	
+
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -2287,10 +2252,6 @@ form .error {
     .ch-info span{
         line-height: 1;
     }
-	
-	.socialNetwork.nav {
-		clear:both;
-	}
 
 }
 
@@ -2311,9 +2272,10 @@ form .error {
     #mainMenu .responsive-nav {
         display:block;
         margin-bottom:0.2em;
-        position:absolute;
+        position:static;
         top:20px;
         right:8px;
+		width:100%;
     }
 
     #mainMenu {
@@ -2411,10 +2373,8 @@ form .error {
     .comments input, .comments textarea{
         width:95% !important;
     }
-	.workinghours {
-		margin-top:30px;
-	}	
-	
+
+
 }
 
 
@@ -2423,8 +2383,8 @@ form .error {
 
 
     #mainMenu .responsive-nav{
-        
-        width:170px;
+        position:static;
+        width:100%;
     }
 
 }
@@ -2440,6 +2400,7 @@ form .error {
         margin-right:12px;
         margin-left:12px;
     }
+
 
 }
 

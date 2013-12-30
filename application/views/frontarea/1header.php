@@ -65,31 +65,57 @@
 <body>
 <!-- Primary Page Layout 
 ================================================== -->
-
 <!-- header -->
 <header id="mainHeader" class="clearfix">
 
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+	<!-- container -->
+    	<!--row -->
+        <div class="row">
+        	<div class="span2" style="width:14%;">
+            </div>
+        	<div class="span6">
+            	<div class="row">
+                <!--Logo -->
+                <div class="span12">
+                    <a href="<?Php echo base_url()?>home/actual">
+                        <img src="<?Php echo base_url() ?>assets/frontarea/images/logo-biriyani.png" > 
+                    </a>            
 
-  <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-          <div class="container">
-            <a href="<?Php echo base_url()?>home/actual">
-            	<img src="<?Php echo base_url() ?>assets/frontarea/images/logo-biriyani2.png"> 
-            </a> 
-            <nav id="mainMenu" class="clearfix">
-                <ul class="nav">
-                    <li><a href="<?Php echo base_url()?>home/actual" class="firstLevel <?php echo $this->uri->segment(2) == 'actual' ? 'active' : '' ?>" >Home</a></li>
-                    <li><a href="<?Php echo base_url()?>home/menu_items" class="firstLevel <?php echo $this->uri->segment(2) == 'menu_items' ? 'active' : '' ?>">Menu</a></li>
-                    <li><a href="<?Php echo base_url()?>home/service" class="firstLevel <?php echo $this->uri->segment(2) == 'service' ? 'active' : '' ?>">Services</a></li>                            
-                    <li><a href="<?Php echo base_url()?>home/about_us" class="firstLevel <?php echo $this->uri->segment(2) == 'about_us' ? 'active' : '' ?>">About Us</a></li>
-                    <li><a href="<?Php echo base_url()?>home/contact_us" class="firstLevel last <?php echo $this->uri->segment(2) == 'contact_us' ? 'active' : '' ?>">Contact Us</a></li>
-                </ul>
-              </nav>
+                <!--Logo -->
+                <!--workinghours -->
 
-          </div>
-      </div>
-  </div>
-  
+                	<div class="workinghours"> 
+                    <img src="<?Php echo base_url() ?>assets/frontarea/images/top-workinghours.png" >
+                    <p><time><?php echo $contact->c_working_hours; ?></time> </p>
+                    </div>
+                <!--workinghours -->
+                </div>                
+                </div>
+            </div>
+        </div>
+        <!--row -->
+    <!-- container -->
+<div class="span6">
+            	<!--menu -->
+            	<div class="row">
+                    <div class="span6">
+                        <nav id="mainMenu" class="clearfix">
+                            <ul>
+                            <li><a href="<?Php echo base_url()?>home/actual" class="firstLevel <?php echo $this->uri->segment(2) == 'actual' ? 'active' : '' ?>" >Home</a></li>
+                            <li><a href="<?Php echo base_url()?>home/menu_items" class="firstLevel <?php echo $this->uri->segment(2) == 'menu_items' ? 'active' : '' ?>">Menu</a></li>
+                            <li><a href="<?Php echo base_url()?>home/service" class="firstLevel <?php echo $this->uri->segment(2) == 'service' ? 'active' : '' ?>">Services</a></li>                            
+                            <li><a href="<?Php echo base_url()?>home/about_us" class="firstLevel <?php echo $this->uri->segment(2) == 'about_us' ? 'active' : '' ?>">About Us</a></li>
+                            <li><a href="<?Php echo base_url()?>home/contact_us" class="firstLevel last <?php echo $this->uri->segment(2) == 'contact_us' ? 'active' : '' ?>">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--menu -->
+            </div>    
+</div>
+</div>
 </header>
 <!-- header --> 
         

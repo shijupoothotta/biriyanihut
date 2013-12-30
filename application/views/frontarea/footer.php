@@ -1,4 +1,41 @@
-<!-- Start Sidebar Icons -->
+<!-- Start Sidebar Icons Left -->
+<ul style="position: fixed; top: 300px; width: 40px;" id="example-2" class="sticklr sticklr-left sticklr-js">
+    
+    <?php if($contact->c_facebook) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="<?php echo $contact->c_facebook; ?>" class="icon-facebook socialIcon"  title="follow us on Facebook"><span>facebook</span></a></li>
+    <?php endif ?>
+    <?php if($contact->c_google) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="<?php echo $contact->c_google; ?>" class="icon-gplus socialIcon"  title="follow us on Google +"><span></span></a></li>
+    <?php endif ?>                          
+    <?php if($contact->c_twitter) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="<?php echo $contact->c_twitter; ?>" class="icon-twitter-bird socialIcon"  title="follow us on Twitter"><span>twitter</span></a></li>
+    <?php endif ?>
+    <?php if($contact->c_instagram) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="<?php echo $contact->c_instagram; ?>" class="icon-instagram socialIcon tips"  title="follow us on Instagram"><span>instagram</span></a></li>
+    <?php endif ?>
+    <?php if($contact->c_linkedin) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="<?php echo $contact->c_linkedin; ?>" class="icon-linkedin socialIcon tips"  title="follow us on Linkedin"><span>linkedin</span></a></li>
+    <?php endif ?>
+    <?php if($contact->c_pininterest) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="<?php echo $contact->c_pininterest; ?>" class="icon-pinterest-circled socialIcon tips"  title="follow us on Pinterest"><span>Pinterest</span></a></li>
+    <?php endif ?>
+    <?php if($contact->c_rssfeed) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="<?php echo $contact->c_rssfeed; ?>" class="icon-rss socialIcon tips"  title="Our rss feed"><span>rss feed</span></a></li>
+    <?php endif ?> 
+    <?php if($contact->c_address_line1) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="<?php echo $this->config->item('map_url')?>" target="_new" class="icon-location socialIcon"  title="Location"><span></span></a></li> 
+    <?php endif ?>                     
+    <?php if($contact->c_mobile) : ?>
+    <?php $pieces = explode(",", $contact->c_mobile); ?>                        
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="tel:<?php echo $pieces[0]; ?>" class="icon-phone socialIcon"  title="Mobile"><span></span></a></li> 
+    <?php endif ?>                    
+    <?php if($contact->c_email) : ?>
+    <li style="height: 40px;"><a style="height: 32px; width: 32px;" href="mailto:<?php echo $contact->c_email; ?>" class="icon-mail-alt socialIcon"  title="Email"><span></span></a></li> 
+    <?php endif ?>               
+</ul> 
+<!-- End Sidebar Icons --> 
+
+<!-- Start Sidebar Icons Right-->
 <ul style="position: fixed; top: 300px; width: 40px;" id="example-2" class="sticklr sticklr-right sticklr-js">
     <li style="height: 40px;">
         <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#catering" class="icon-catering" title="Catering"></a>
@@ -14,7 +51,8 @@
         <a style="height: 32px; width: 32px;" href="<?Php echo base_url()?>home/service#halal" class="icon-halalmeat" title="Halal Meat"></a> 
     </li>            
 </ul> 
-<!-- End Sidebar Icons -->       
+<!-- End Sidebar Icons -->  
+      
 <!-- footer -->
 <footer class="footer1">
 <div class="container" id="footer">
@@ -95,7 +133,7 @@
           <br />
       Location</h2>
         <div class="divider"><span></span></div>
-        <iframe width="460" height="225" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?q=Biriyani+Hut,+Toowoomba,+Australia&amp;ie=UTF8&amp;hq=Biriyani+Hut,&amp;hnear=Toowoomba+Queensland,+Australia&amp;t=h&amp;ll=-27.561015,151.954243&amp;spn=0.004661,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
+        <iframe width="100%" height="225px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?q=Biriyani+Hut,+Toowoomba,+Australia&amp;ie=UTF8&amp;hq=Biriyani+Hut,&amp;hnear=Toowoomba+Queensland,+Australia&amp;t=h&amp;ll=-27.561015,151.954243&amp;spn=0.004661,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
         <a href="https://www.google.com/maps?q=Biriyani+Hut,+Toowoomba,+Australia&amp;ie=UTF8&amp;hq=Biriyani+Hut,&amp;hnear=Toowoomba+Queensland,+Australia&amp;t=h&amp;ll=-27.561015,151.954243&amp;spn=0.004661,0.00912&amp;z=16&amp;iwloc=A&amp;source=embed" class="btn btn-mini  btn-block btn-success" target="_new">View Larger Map</a>
     </div> 
     <div class="span12">

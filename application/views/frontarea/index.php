@@ -5,37 +5,34 @@
 <section class="sliceTop"> 
 <div class="container">
 
+
+<div class="clearfix">
+    <div class="bigIconsColumnsWrapper">
+        <article class="one_fourth">
+            <a href="<?Php echo base_url()?>home/service#byo" class="thumbnail" style="display:inline-block; max-width:100%">
+                <img src="<?Php echo base_url()?>assets/frontarea/images/byo.png" class="img-rounded">
+            </a>
+        </article>  
+
+        <article class="one_fourth">
+            <a href="<?Php echo base_url()?>home/service#delivery" class="thumbnail" style="display:inline-block; max-width:100%">
+                <img src="<?Php echo base_url()?>assets/frontarea/images/delivery.png" class="img-rounded">
+            </a>                
+        </article>  
     
-    <div class="clearfix">
-            <div class="bigIconsColumnsWrapper">
-
-
-                <article class="one_fourth">
-					
-                    <a href="<?Php echo base_url()?>home/service#catering" class="iconWrapper iconBig thumbnail">
-						<img src="<?Php echo base_url()?>assets/frontarea/images/catering-img01.png" class="img-circle">
-                    </a>
-                </article>  
-
-                <article class="one_fourth">
-                    <a href="<?Php echo base_url()?>home/service#delivery" class="iconWrapper iconBig thumbnail">
-						<img src="<?Php echo base_url()?>assets/frontarea/images/homedelivery-img02.png" class="img-circle">
-                    </a>                
-                </article>  
+        <article class="one_fourth">
             
-                <article class="one_fourth">
-					
-                    <a href="<?Php echo base_url()?>home/service#catering" class="iconWrapper iconBig thumbnail">
-						<img src="<?Php echo base_url()?>assets/frontarea/images/byo-image-03.png" class="img-circle">
-                    </a>
-                </article               
-                ><article class="one_fourth last">
-                    <a href="<?Php echo base_url()?>home/service#halal" class="iconWrapper iconBig thumbnail">
-						<img src="<?Php echo base_url()?>assets/frontarea/images/halalmeat-img04.png" class="img-circle">
-                    </a>
-                </article>
-			</div>
-        </div>    
+            <a href="<?Php echo base_url()?>home/service#catering" class="thumbnail" style="display:inline-block; max-width:100%">
+                <img src="<?Php echo base_url()?>assets/frontarea/images/catering.png" class="img-rounded">
+            </a>
+        </article>          
+        <article class="one_fourth last">
+            <a href="<?Php echo base_url()?>home/service#halal" class="thumbnail" style="display:inline-block; max-width:100%">
+                <img src="<?Php echo base_url()?>assets/frontarea/images/halalmeat.png" class="img-rounded">
+            </a>
+        </article>
+    </div>
+</div>    
 </div>
 </section> 
 <!-- three blocs -->
